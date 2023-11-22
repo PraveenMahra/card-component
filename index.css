@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  background-color: #f2eae4;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.card-component {
+  display: flex;
+  gap: 4rem;
+  background-color: white;
+  padding-right: 3rem;
+  border-radius: 10px;
+}
+
+.images img {
+  height: 45rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.component-type {
+  color: #9d9fad;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 1.4rem;
+}
+
+.component-name {
+  font-family: "Fraunces", serif;
+  color: #11141b;
+  margin: 2rem 0;
+  font-size: 3.2rem;
+  width: 24rem;
+}
+
+.component-description {
+  font-size: 1.4rem;
+  color: #6b6c72;
+  width: 24rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.new-price {
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  color: #4a7f6a;
+  font-weight: 700;
+}
+
+.old-price {
+  font-size: 1.4rem;
+  color: #6b6c72;
+}
+
+button {
+  background-color: #4a7f6a;
+  color: #ffffff;
+  padding: 1.5rem;
+  width: 100%;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #213f32;
+}
