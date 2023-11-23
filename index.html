@@ -19,7 +19,21 @@
   <body>
     <main class="card-component">
       <section class="product-image">
-        <img src="./images/image-product-desktop.jpg" alt="Gabrielle Essence" />
+        <picture>
+          <source
+            media="(min-width:640px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+          <source
+            media="(max-width:640px)"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <img
+            src="./images/image-product-desktop.jpg"
+            alt="Gabrielle Essence"
+          />
+        </picture>
+        <!-- <img src="./images/image-product-desktop.jpg" alt="Gabrielle Essence" /> -->
       </section>
       <section class="product-description">
         <p class="product-type">Perfume</p>
