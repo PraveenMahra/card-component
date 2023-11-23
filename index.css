@@ -29,13 +29,13 @@ html {
   border-radius: 10px;
 }
 
-.images img {
+.product-image img {
   height: 45rem;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-.component-type {
+.product-type {
   color: #9d9fad;
   margin-top: 2rem;
   text-transform: uppercase;
@@ -43,7 +43,7 @@ html {
   font-size: 1.4rem;
 }
 
-.component-name {
+.product-name {
   font-family: "Fraunces", serif;
   color: #11141b;
   margin: 2rem 0;
@@ -51,7 +51,7 @@ html {
   width: 24rem;
 }
 
-.component-description {
+.product-details {
   font-size: 1.4rem;
   color: #6b6c72;
   width: 24rem;
@@ -59,7 +59,7 @@ html {
   letter-spacing: 1px;
 }
 
-.price {
+.product-price {
   display: flex;
   align-items: center;
   gap: 2rem;
